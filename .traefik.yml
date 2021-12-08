@@ -1,0 +1,14 @@
+displayName: "Header Block"
+type: middleware
+
+import: github.com/nilskohrs/headerblock
+
+summary: "Header Block is a plugin to block request and response headers which regex matched by their name and/or value"
+
+testData:
+  requestHeaders:
+    - name: "header"
+      value: "value"
+  responseHeaders:
+    - name: "header"
+      value: "value"
